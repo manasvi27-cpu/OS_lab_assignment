@@ -1,5 +1,17 @@
-Parent created child #1 with PID 2495
-Parent created child #2 with PID 2496
-Parent created child #3 with PID 2497
+Parent created child #1 with PID 149801
+I am child #1
+My PID: 149801
+My Parent PID: 149800
+Custom message: Hello from child!
+Parent created child #2 with PID 149802
+I am child #2
+My PID: 149802
+My Parent PID: 149800
+Custom message: Hello from child!
+Parent created child #3 with PID 149803
+I am child #3
+My PID: 149803
 Parent waiting for children...
+My Parent PID: 149800
+Custom message: Hello from child!
 Parent finished waiting.
