@@ -1,1 +1,11 @@
-Enter total number of blocks: 
+Enter total number of blocks: 10
+Enter number of files: 3
+Enter starting block for file 1: 0
+Enter length of file 1: 4
+File 1 allocated from block 0 to 3
+Enter starting block for file 2: 3
+Enter length of file 2: 4
+File 2 cannot be allocated. Blocks are unavailable or exceed memory.
+Enter starting block for file 3: 3
+Enter length of file 3: 6
+File 3 cannot be allocated. Blocks are unavailable or exceed memory.
