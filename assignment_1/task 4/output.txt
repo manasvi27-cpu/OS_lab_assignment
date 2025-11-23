@@ -1,0 +1,5 @@
+=== TASK 4: Inspect Process Info from /proc ===
+
+Enter PID of process to inspect: Error: Process  not found.
+Error: Executable for PID  not found.
+Error: /proc//fd not found.
