@@ -1,14 +1,17 @@
-total 4
--rw-rw-r-- 1 kali kali    0 Nov 23 14:09 output.txt
--rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
-total 8
--rw-rw-r-- 1 kali kali  110 Nov 23 14:09 output.txt
--rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
-total 8
--rw-rw-r-- 1 kali kali  220 Nov 23 14:09 output.txt
--rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
-[Parent] Created child #1 with PID 12027
-[Parent] Created child #2 with PID 12028
-[Parent] Created child #3 with PID 12029
+[Parent] Created child #1 with PID 11890
+[Child #1] PID: 11890, PPID: 11889
+[Parent] Created child #2 with PID 11891
+[Child #1] Executing command: ['ls', '-l']
+[Child #2] PID: 11891, PPID: 11889
+[Parent] Created child #3 with PID 11892
+[Child #2] Executing command: ['ls', '-l']
 [Parent] Waiting for all children...
+[Child #3] PID: 11892, PPID: 11889
+[Child #3] Executing command: ['ls', '-l']
+total 4
+total 4
+-rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
+-rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
+total 4
+-rw-rw-r-- 1 kali kali 1197 Nov 23 14:08 task2.py
 [Parent] All children finished.
