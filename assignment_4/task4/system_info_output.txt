@@ -1,0 +1,7 @@
+===== System Information =====
+Kernel Version:
+6.16.8+kali-amd64
+User:
+kali
+Hardware Info:
+Virtualization type:                     full
