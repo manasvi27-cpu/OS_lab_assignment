@@ -1,0 +1,32 @@
+
+===== FCFS Scheduling =====
+Process	BT	WT	TAT
+P1	6	0	6
+P2	8	6	14
+P3	7	14	21
+P4	3	21	24
+
+===== SJF Scheduling =====
+
+===== FCFS Scheduling =====
+Process	BT	WT	TAT
+P4	3	0	3
+P1	6	3	9
+P3	7	9	16
+P2	8	16	24
+
+===== Priority Scheduling =====
+
+===== FCFS Scheduling =====
+Process	BT	WT	TAT
+P2	8	0	8
+P1	6	8	14
+P4	3	14	17
+P3	7	17	24
+
+===== Round Robin Scheduling =====
+Process	BT	WT	TAT
+P1	6	9	15
+P2	8	15	23
+P3	7	17	24
+P4	3	9	12
