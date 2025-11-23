@@ -1,4 +1,34 @@
 MFT Simulation:
 
 --- MFT (Fixed Partitioning) Simulation ---
-Enter total memory size: 
+Enter total memory size: 1000
+Enter partition size: 250
+Memory divided into 4 partitions of size 250
+Enter number of processes: 5
+Enter size of Process 1: 200
+Process 1 allocated to a partition.
+Enter size of Process 2: 300
+Process 2 too large for fixed partition.
+Enter size of Process 3: 120
+Process 3 allocated to a partition.
+Enter size of Process 4: 250
+Process 4 allocated to a partition.
+Enter size of Process 5: 100
+Process 5 allocated to a partition.
+
+MVT Simulation:
+
+--- MVT (Variable Partitioning) Simulation ---
+Enter total memory size: 1000
+Enter number of processes: 5
+Enter size of Process 1: 200
+Process 1 allocated. Remaining memory: 800
+Enter size of Process 2: 300
+Process 2 allocated. Remaining memory: 500
+Enter size of Process 3: 150
+Process 3 allocated. Remaining memory: 350
+Enter size of Process 4: 250
+Process 4 allocated. Remaining memory: 100
+Enter size of Process 5: 100
+Process 5 allocated. Remaining memory: 0
+                                             
