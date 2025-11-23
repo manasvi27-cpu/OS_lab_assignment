@@ -1,0 +1,12 @@
+=== TASK 3: Zombie and Orphan Processes ===
+
+--- Zombie Process Example ---
+[Parent] PID: 156788 created child PID: 156789 (will not wait yet)
+[Zombie Child] PID: 156789 - finishing quickly, will become zombie
+
+[Parent] Checking for zombie processes (defunct) while child is finished:
+[Parent] Finished waiting for zombie child.
+
+--- Orphan Process Example ---
+[Parent] PID: 156788 is exiting immediately to create orphan child
+[Orphan Child] PID: 156834 - My new parent PID (should be 1): 1
