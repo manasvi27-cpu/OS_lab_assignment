@@ -1,4 +1,13 @@
 === TASK 5: Process Prioritization ===
 
+[Child PID 161220] Starting with nice value 0
+[Child PID 161221] Starting with nice value 5
+[Child PID 161222] Starting with nice value 10
+[Child PID 161220] Finished CPU task.
+[Child PID 161220] Execution time: 0.22 seconds
+[Child PID 161222] Finished CPU task.
+[Child PID 161222] Execution time: 0.29 seconds
+[Child PID 161221] Finished CPU task.
+[Child PID 161221] Execution time: 0.35 seconds
 
 [Parent] All child processes finished.
