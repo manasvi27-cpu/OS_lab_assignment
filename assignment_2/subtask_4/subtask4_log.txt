@@ -1,0 +1,6 @@
+2025-11-23 16:33:18,176 - MainProcess - Sub-Task 4: Starting processes for termination verification
+2025-11-23 16:33:18,185 - Process-2 - Process-2 started
+2025-11-23 16:33:18,186 - Process-1 - Process-1 started
+2025-11-23 16:33:20,187 - Process-1 - Process-1 ended
+2025-11-23 16:33:20,189 - Process-2 - Process-2 ended
+2025-11-23 16:33:20,192 - MainProcess - Sub-Task 4: System Shutdown completed
