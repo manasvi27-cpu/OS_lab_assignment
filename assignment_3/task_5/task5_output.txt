@@ -1,0 +1,4 @@
+MFT Simulation:
+
+--- MFT (Fixed Partitioning) Simulation ---
+Enter total memory size: 
