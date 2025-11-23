@@ -1,1 +1,28 @@
-Enter number of processes: 
+Enter number of processes: 3
+Enter Burst Time for P1: 10
+Enter Priority (lower number = higher priority) for P1: 2
+Enter Burst Time for P2: 5
+Enter Priority (lower number = higher priority) for P2: 1
+Enter Burst Time for P3: 8
+Enter Priority (lower number = higher priority) for P3: 3
+Priority Scheduling:
+
+PID     BT      Priority        WT      TAT
+2       5       1               0       5
+1       10      2               5       15
+3       8       3               15      23
+
+Average Waiting Time: 6.67
+Average Turnaround Time: 14.33
+--------------------------------------------------
+Enter Time Quantum for Round Robin: 4
+
+Round Robin Scheduling (Quantum = 4):
+
+PID     BT      WT      TAT
+1       10      13      23
+2       5       12      17
+3       8       13      21
+
+Average Waiting Time: 12.67
+Average Turnaround Time: 20.33
