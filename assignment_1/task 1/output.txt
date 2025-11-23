@@ -1,0 +1,5 @@
+Parent created child #1 with PID 2495
+Parent created child #2 with PID 2496
+Parent created child #3 with PID 2497
+Parent waiting for children...
+Parent finished waiting.
