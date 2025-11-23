@@ -1,5 +1,19 @@
 === TASK 4: Inspect Process Info from /proc ===
 
-Enter PID of process to inspect: Error: Process  not found.
-Error: Executable for PID  not found.
-Error: /proc//fd not found.
+Enter PID of process to inspect: 149287
+--- Process Status (/proc/[pid]/status) ---
+Name:   zsh
+State:  S (sleeping)
+VmSize:    10516 kB
+
+--- Executable Path (/proc/[pid]/exe) ---
+/usr/bin/zsh
+
+--- Open File Descriptors (/proc/[pid]/fd) ---
+FD 0 -> /dev/pts/0
+FD 1 -> /dev/pts/0
+FD 2 -> /dev/pts/0
+FD 10 -> /dev/pts/0
+FD 12 -> /usr/share/zsh/functions/Completion.zwc
+FD 14 -> /usr/share/zsh/functions/Completion/Base.zwc
+FD 15 -> /usr/share/zsh/functions/Misc.zwc
