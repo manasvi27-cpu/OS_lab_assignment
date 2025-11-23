@@ -1,0 +1,7 @@
+
+--- First Fit Memory Allocation ---
+Enter partition sizes (space-separated): Enter process sizes (space-separated): 
+--- Best Fit Memory Allocation ---
+Enter partition sizes (space-separated): Enter process sizes (space-separated): 
+--- Worst Fit Memory Allocation ---
+Enter partition sizes (space-separated): 
