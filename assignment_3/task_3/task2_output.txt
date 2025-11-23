@@ -1,0 +1,12 @@
+Enter total number of blocks: 10
+Enter number of files: 2
+
+Enter index block for file 1: 0
+Enter number of data blocks for this file: 3
+Enter block numbers separated by space: 1 2 3
+File 1 allocated with index block 0 -> [1, 2, 3]
+
+Enter index block for file 2: 4
+Enter number of data blocks for this file: 2
+Enter block numbers separated by space: 5 6 
+File 2 allocated with index block 4 -> [5, 6]
