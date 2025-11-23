@@ -1,7 +1,25 @@
 
 --- First Fit Memory Allocation ---
-Enter partition sizes (space-separated): Enter process sizes (space-separated): 
+Enter partition sizes (space-separated): 300 500 450 600
+Enter process sizes (space-separated): 212 417 112 426 
+Process 1 allocated in Partition 1
+Process 2 allocated in Partition 2
+Process 3 allocated in Partition 3
+Process 4 allocated in Partition 4
+
 --- Best Fit Memory Allocation ---
-Enter partition sizes (space-separated): Enter process sizes (space-separated): 
+Enter partition sizes (space-separated): 300 500 450 600
+Enter process sizes (space-separated): 212 417 112 426
+Process 1 allocated in Partition 1
+Process 2 allocated in Partition 3
+Process 3 allocated in Partition 2
+Process 4 allocated in Partition 4
+
 --- Worst Fit Memory Allocation ---
-Enter partition sizes (space-separated): 
+Enter partition sizes (space-separated): 300 500 450 600
+Enter process sizes (space-separated): 212 417 112 426
+Process 1 allocated in Partition 4
+Process 2 allocated in Partition 2
+Process 3 allocated in Partition 3
+Process 4 cannot be allocated
+                                      
