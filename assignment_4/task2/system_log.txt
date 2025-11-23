@@ -1,0 +1,4 @@
+2025-11-23 23:15:18,903 - Process-2 - Process-2 started
+2025-11-23 23:15:18,914 - Process-1 - Process-1 started
+2025-11-23 23:15:20,906 - Process-2 - Process-2 terminated
+2025-11-23 23:15:20,931 - Process-1 - Process-1 terminated
